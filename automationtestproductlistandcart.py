@@ -16,7 +16,7 @@ class Webdriver(unittest.TestCase):
 
     def test_url_function(self):
         driver = self.driver
-        driver.get("https://www.saucedemo.com")
+        driver.get("https://www.localtest.com")
         driver.set_page_load_timeout(2)
         driver.maximize_window()
         # driver.set_window_size(1341, 810)
@@ -32,7 +32,7 @@ elem.send_keys("standard_user")
 time.sleep(2)
 print("username data is true")
 elem = driver.find_element_by_xpath("//input[@placeholder='Password']")
-elem.send_keys("secret_sauce")
+elem.send_keys("local_test")
 time.sleep(2)
 print("password data is true")
 # test click to submit login account
@@ -100,7 +100,7 @@ Username']")
 # time.sleep(2)
 # print("username data is true")
 # elem = driver.find_element_by_xpath("//input[@placeholder='Password']")
-# elem.send_keys("secret_sauce")
+# elem.send_keys("local_test")
 # time.sleep(2)
 print("password data is true")
 # test click to submit login account
