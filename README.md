@@ -1,5 +1,5 @@
-# test-sauce-demo
-(test acceptance) sauce demo
+# local-test-demo
+(test acceptance) local test
 <br> using selenium webdriver
 <br> open with google chrome
-<br> this automation test is just for fun
+<br> this automation test is an example for e-commerce website
